@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9def01c-7c4b-4191-a1ae-1e0883d030e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS超最大范围整数相加（包括负数）/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS超最大范围整数相加（包括负数）/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b9def01c-7c4b-4191-a1ae-1e0883d030e8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,14 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS超最大范围整数相加（包括负数）/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
-              <folding>
-                <element signature="e#203#271#0" />
-                <element signature="e#301#369#0" />
-                <element signature="e#816#1187#0" />
-                <element signature="e#1899#2112#0" />
-              </folding>
+            <state relative-caret-position="539">
+              <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -134,12 +124,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553828890443</updated>
-      <workItem from="1553828892471" duration="2116000" />
+      <workItem from="1553828892471" duration="2733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2116000" />
+    <option name="totallyTimeSpent" value="2733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -184,14 +174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS超最大范围整数相加（包括负数）/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
-          <folding>
-            <element signature="e#203#271#0" />
-            <element signature="e#301#369#0" />
-            <element signature="e#816#1187#0" />
-            <element signature="e#1899#2112#0" />
-          </folding>
+        <state relative-caret-position="539">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
         </state>
       </provider>
     </entry>
