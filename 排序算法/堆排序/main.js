@@ -6,7 +6,7 @@ function shiftDown(arr, i, length) { // 下沉函数，这个函数的目的就�
     let left = 2*i + 1;
     let right = 2*i + 2;
     let maxIndex = i;
-    
+
     if(left < length && arr[left] > arr[maxIndex]) {
         maxIndex = left;
     }
