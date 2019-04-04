@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9def01c-7c4b-4191-a1ae-1e0883d030e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/实现继承/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实现继承/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="b9def01c-7c4b-4191-a1ae-1e0883d030e8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -149,12 +146,12 @@
       <updated>1553828890443</updated>
       <workItem from="1553828892471" duration="2733000" />
       <workItem from="1554088056775" duration="10104000" />
-      <workItem from="1554340276998" duration="6651000" />
+      <workItem from="1554340276998" duration="7055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19488000" />
+    <option name="totallyTimeSpent" value="19892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
