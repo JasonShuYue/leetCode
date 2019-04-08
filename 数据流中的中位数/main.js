@@ -1,29 +1,33 @@
 /*
     题目描述：
-        如何得到一个数据流中的中位数？如果从数据流中读出奇数个数值，那么中位数就是所有数值排序之后位于中间的数值。
-    如果从数据流中读出偶数个数值，那么中位数就是所有数值排序之后中间两个数的平均值。我们使用Insert()方法读取数据流，
-    使用GetMedian()方法获取当前读取数据的中位数。
+        请实现一个函数，用来判断一颗二叉树是不是对称的。注意，如果一个二叉树同此二叉树的镜像是同样的，定义其为对称的。
 
     思路：
-        每次GetMedian时，先排序，然后如果arr长度是奇数，则返回中间那个数字，如果是偶数则返回中间2个数的平均值。
+        （1）递归法：每次判断左右子树，如果左右子树的根节点的值不同，直接返回false，然后递归判断「左子树的左子树」和「右子树的右子树」
+    ，「左子树的右子树」和「右子树的左子树」。
+        （2）非递归法：
+        
  */
 
-var arr = [];
-
-function Insert(num)
+/* function TreeNode(x) {
+    this.val = x;
+    this.left = null;
+    this.right = null;
+} */
+function isSymmetrical(pRoot)
 {
     // write code here
-    arr.push(num);
-}
-function GetMedian(){
-    // write code here
-    arr = arr.sort(function(a,b) {
-        return a - b;
-    });
+    if(pRoot === null) return true;
 
-    let len = arr.length;
 
-    let index = Math.floor((len) / 2);
-    let result = len % 2 === 1 ? arr[index] : (arr[index] + arr[index - 1]) / 2;
-    return result;
+    return judge(pRoot.left, pRoot.right);
 }
+
+function judge(left, right) {
+    if(left === null && right === null) return true;
+    if(right === null || left === null) return false;
+    if(left.val !== right.val) return false;
+
+    return judge(left.left, right.right) && judge(left.right, right.left);
+}
+
