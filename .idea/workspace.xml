@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9def01c-7c4b-4191-a1ae-1e0883d030e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/矩阵中的路径/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/矩阵中的路径/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复杂链表的复制/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/复杂链表的复制/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,14 +17,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/矩阵中的路径/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+            <state relative-caret-position="114">
+              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/复杂链表的复制/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/复杂链表的复制/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -58,6 +72,7 @@
         <option value="$PROJECT_DIR$/二叉树的深度/main.js" />
         <option value="$PROJECT_DIR$/和为S的两个数/main.js" />
         <option value="$PROJECT_DIR$/矩阵中的路径/main.js" />
+        <option value="$PROJECT_DIR$/复杂链表的复制/main.js" />
       </list>
     </option>
   </component>
@@ -83,12 +98,12 @@
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="数据流中的中位数" type="462c0819:PsiDirectoryNode" />
+              <item name="复杂链表的复制" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="矩阵中的路径" type="462c0819:PsiDirectoryNode" />
+              <item name="数据流中的中位数" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,11 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/复杂链表的复制" />
       <recent name="$PROJECT_DIR$/矩阵中的路径" />
       <recent name="$PROJECT_DIR$/和为S的两个数" />
       <recent name="$PROJECT_DIR$/二叉树的深度" />
       <recent name="$PROJECT_DIR$/数据流中的中位数" />
-      <recent name="$PROJECT_DIR$/二叉树的下一个结点" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/51,52 N皇后问题" />
@@ -137,12 +152,12 @@
       <updated>1553828890443</updated>
       <workItem from="1553828892471" duration="2733000" />
       <workItem from="1554088056775" duration="10104000" />
-      <workItem from="1554340276998" duration="15767000" />
+      <workItem from="1554340276998" duration="16025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28604000" />
+    <option name="totallyTimeSpent" value="28862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -376,11 +391,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/矩阵中的路径/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复杂链表的复制/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/复杂链表的复制/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
