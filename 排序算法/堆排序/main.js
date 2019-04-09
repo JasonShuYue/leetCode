@@ -24,7 +24,7 @@ function heapSort(arr) {
     let len = arr.length;
 
     // 建堆
-    for(let i = Math.floor(len / 2); i >= 0; i--) {
+    for(let i = Math.floor(len / 2) - 1; i >= 0; i--) {
         shiftDown(arr, i, len);
     }
 
@@ -32,7 +32,7 @@ function heapSort(arr) {
     // 然后递归减少length长度，直到为1
     for(let j = 0; j < len; j++) {
         [arr[0], arr[len - 1 - j]] = [arr[len - 1 - j], arr[0]];
-        shiftDown(arr, 0, len - 2 - j );
+        shiftDown(arr, 0, len - 1 - j );
     }
     console.log(arr)
 
