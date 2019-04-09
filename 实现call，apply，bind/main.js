@@ -16,7 +16,7 @@ Function.prototype.bind = function(context, ...bindArgs) {
             // 意味着是通过new调用的，而new的优先级高于bind
             return new func(...args);
         }
-        return func(...args);
+        return func.call(context, ...args);
     }
 }
 
