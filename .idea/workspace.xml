@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9def01c-7c4b-4191-a1ae-1e0883d030e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/547. 朋友圈/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/547. 朋友圈/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实现一个自定义事件，包括on，off，trigger，once/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,15 +15,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/547. 朋友圈/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state relative-caret-position="646">
+              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS超最大范围整数相加（包括负数）/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/实现一个自定义事件，包括on，off，trigger，once/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -42,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,10 +117,11 @@
         <option value="$PROJECT_DIR$/200.岛屿个数/index.html" />
         <option value="$PROJECT_DIR$/200.岛屿个数/main.js" />
         <option value="$PROJECT_DIR$/547. 朋友圈/main.js" />
+        <option value="$PROJECT_DIR$/实现一个自定义事件，包括on，off，trigger，once/main.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -120,16 +139,6 @@
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="200.岛屿个数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="547. 朋友圈" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,12 +188,13 @@
       <updated>1553828890443</updated>
       <workItem from="1553828892471" duration="2733000" />
       <workItem from="1554088056775" duration="10104000" />
-      <workItem from="1554340276998" duration="50700000" />
+      <workItem from="1554340276998" duration="50945000" />
+      <workItem from="1555122860117" duration="2234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63537000" />
+    <option name="totallyTimeSpent" value="66016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -213,16 +223,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/调整数组顺序使奇数位于偶数前面/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器人的运动范围/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/机器人的运动范围/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -348,9 +348,7 @@
         <state relative-caret-position="-2152" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树遍历.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树遍历.js" />
     <entry file="file://$PROJECT_DIR$/51,52 N皇后问题/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -545,6 +543,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/547. 朋友圈/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/547. 朋友圈/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -552,13 +560,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/547. 朋友圈/main.js">
+    <entry file="file://$PROJECT_DIR$/JS超最大范围整数相加（包括负数）/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实现一个自定义事件，包括on，off，trigger，once/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
         </state>
       </provider>
     </entry>
