@@ -12,3 +12,13 @@ function _new(func, ...args) {
     }
     return obj;
 }
+
+
+
+function __new(func, ...args) {
+    let obj = new Object();
+    obj.__proto__ = func.prototype;
+
+    func.call(obj, ...args);
+    return obj;
+}

@@ -1,35 +1,51 @@
-// 类型判断
 
-// 判断target类型的时候，单单用「typeof」是不够的，这其实不是bug，本质原因是JS的万物皆对象的理论。所以我们要区别对待不同类型：
+/**
+ *  题目描述：
+ *      地上有一个m行和n列的方格。一个机器人从坐标0,0的格子开始移动，每一次只能向左，右，上，下四个方向移动一格，
+ *  但是不能进入行坐标和列坐标的数位之和大于k的格子。 例如，当k为18时，机器人能够进入方格（35,37），因为3+5+3+7 = 18。
+ *  但是，它不能进入方格（35,38），因为3+5+3+8 = 19。请问该机器人能够达到多少个格子？
+ *
+ *  思路：
+ *      「回溯法」
+ *
+ * **/
 
-// 第一类：null，使用「typeof」会返回「'object'」,我们直接用「String()」来返回判断结果
-// 第二类：number, string, boolean, undefined, function,可以直接用「typeof」来判断
-// 第三类：Date，RegExp, Object, Error, Array,这些可以用「Object.prototype.call(obj)」来判断，调用这个方法后会返回
-// 形如[object xxx]的字符串
-
-function type(obj) {
-    // 先把第三类的各种类型集成一个hash
-    let arr = ['Date', 'RegExp', 'Object', 'Array', 'Error'];
-    let hash = {};
-    arr.map(item => {
-        let key = '[object '+ item +']';
-        hash[key] = item.toLowerCase();
-    });
-
-    // 第一类：null
-    if(obj === null) return String(obj);
-
-    // 第二类：number, string, boolean, undefined, function
-    if(typeof obj !== 'object') {
-        return typeof obj;
-    } else {
-        // 第三类：如果用typeof显示都是「object」,其中主要是考察Array和Object
-        let type = Object.prototype.toString.call(obj);
-        return hash[type];
+function movingCount(threshold, rows, cols)
+{
+    // write code here
+    var visited = [];
+    for(var i = 0; i < rows; i++) {
+        visited[i] = [];
+        for(var j = 0; j < cols; j++) {
+            visited[i][j] = false;
+        }
     }
+    return moveCount(threshold, rows, cols, 0, 0, visited)
+
 }
 
+function moveCount(threshold, rows, cols, row, col, visited) {
+    if(row < 0 || col < 0 || row >= rows || col >= cols || visited[row][col]) {
+        return 0;
+    }
 
-let obj = new RegExp();
+    if(!isOk(row, col, threshold)) {
+        return 0;
+    }
 
-console.log(type(obj))
+    visited[row][col] = true;
+
+    return 1 + moveCount(threshold, rows, cols, row - 1, col, visited)
+        + moveCount(threshold, rows, cols, row + 1, col, visited)
+        + moveCount(threshold, rows, cols, row, col - 1, visited)
+        + moveCount(threshold, rows, cols, row, col + 1, visited)
+}
+
+function isOk(row, col, threshold) {
+    var str = row.toString() + col.toString();
+    var arr = str.split('');
+    var res = arr.reduce(function(a, b) {
+        return Number(a) + Number(b)
+    })
+    return res > threshold ? false : true;
+}

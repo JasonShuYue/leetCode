@@ -27,7 +27,7 @@ function Promise(executor) {
         }
     }
 
-    // 此函数将Promise实例的状态由「pending」转为「rejectd」
+    // 此函数将Promise实例的状态由「pending」转为「rejected」
     function reject(reason) {
         if(self.status === 'pending') {
             setTimeout(function() {
