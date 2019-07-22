@@ -38,7 +38,9 @@ class Event {
     off(type, handler) {
         if(this.handlers[type]) {
             let index = this.handlers[type].indexOf(handler);
-            this.handlers[type].splice(index, 1);
+            if(index >= 0) {
+                this.handlers[type].splice(index, 1);
+            }
         }
     }
 

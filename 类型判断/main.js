@@ -1,5 +1,5 @@
 function typeJudge(obj) {
-    let classTypes = ['Date', 'Error', 'RegExp', 'Object'];
+    let classTypes = ['Date', 'Error', 'RegExp', 'Object', 'Array'];
     let hash = {};
     classTypes.map(item => {
         let key = '[object '+ item +']';
