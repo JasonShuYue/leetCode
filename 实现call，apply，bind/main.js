@@ -33,7 +33,7 @@ Function.prototype.call = function(context, ...callArgs) {
     return result;
 }
 
-Function.prototype.apply = function(context, ...callArgs) {
+Function.prototype.apply = function(context, callArgs) {
     context = context || window;
     context.func = this;
     if(typeof context.func !== 'function') {
