@@ -10,9 +10,9 @@ Function.prototype.bind = function(context, ...bindArgs) {
     }
 
     // bind返回一个绑定this的函数
-    return function(...callArgs) {
+    return function F(...callArgs) {
         let args = bindArgs.concat(callArgs);
-        if(this instanceof func) {
+        if(this instanceof F) {
             // 意味着是通过new调用的，而new的优先级高于bind
             return new func(...args);
         }
